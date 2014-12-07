@@ -41,6 +41,10 @@ cd /opt/
 sudo tar -zxvf $ECLIPSE.tar.gz
 sudo touch /usr/share/applications/eclipse.desktop
 printf '[Desktop Entry]\nName=Eclipse 4\nType=Application\nExec=/opt/eclipse/eclipse\nTerminal=false\nIcon=/opt/eclipse/icon.xpm\nComment=Integrated Development Environment\nNoDisplay=false\nCategories=Development;IDE;\nName[en]=Eclipse' | sudo tee /usr/share/applications/eclipse.desktop
+# sublime text
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install -y sublime-text-installer
 # reboot
 sudo reboot
 startx
