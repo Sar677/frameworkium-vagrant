@@ -9,6 +9,8 @@ Start up an Ubuntu VM with all the dependencies required for using [Bootstrapium
 4. ``` cd bootstrapium-vagrant/ ```
 5. ``` vagrant up ``` (grab a coffee, this may take a short while)
 6. On the VM login as vagrant, password: vagrant
-7. Bootstrapium is ready for you in /usr/local/bootstrapium
+
+- Eclipse, Maven, Git, Firefox, Chrome, chrome-driver and PhantomJS are all installed and ready to use
+- Bootstrapium is checked out in /usr/local/bootstrapium
 
 
