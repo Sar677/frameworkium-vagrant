@@ -10,8 +10,9 @@ sudo apt-get install -y maven
 # git
 sudo apt-get install -y git
 # bootstrapium
-cd /usr/local
+cd /home/vagrant/
 git clone https://github.com/jvanderwee/bootstrapium.git
+chmod +x bootstrapium/
 # phantomjs
 export PHANTOMJS="phantomjs-1.9.8-linux-x86_64"
 wget -N https://bitbucket.org/ariya/phantomjs/downloads/$PHANTOMJS.tar.bz2 -P ~/Downloads
