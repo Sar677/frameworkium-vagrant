@@ -34,8 +34,8 @@ sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 # eclipse
 cd ~
-export ECLIPSE="eclipse-java-luna-SR1-linux-gtk-x86_64"
-wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/luna/SR1/$ECLIPSE.tar.gz
+export ECLIPSE="eclipse-java-luna-SR2-linux-gtk-x86_64"
+wget http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/luna/SR2/$ECLIPSE.tar.gz
 sudo mv $ECLIPSE.tar.gz /opt/
 cd /opt/
 sudo tar -zxvf $ECLIPSE.tar.gz
