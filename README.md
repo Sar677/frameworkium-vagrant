@@ -1,4 +1,4 @@
-bootstrapium-vagrant
+frameworkium-vagrant
 ====================
 
 Start up an Ubuntu VM with all the dependencies required for using [Frameworkium](https://github.com/robertgates55/frameworkium) in 5 easy steps:
